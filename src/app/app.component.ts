@@ -16,24 +16,34 @@ export class AppComponent {
 
   public appPages = [
     {
-      title: 'Institucional',
+      title: '¿Qué hacer en el Jardín?',
       url: '/institucional',
       icon: 'document'
     },
     {
       title: 'Horarios',
       url: '/tarifas-horarios',
-      icon: 'cash'
+      icon: 'clock'
     },
     {
       title: 'Parqueadero',
       url: '/parqueadero',
-      icon: 'bus'
+      icon: 'logo-model-s' 
     },
     {
       title: 'Recomendaciones',
       url: '/recomendaciones',
-      icon: 'bus'
+      icon: 'warning' 
+    },
+    {
+      title: 'Restaurantes',
+      url: '/restaurantes',
+      icon: 'restaurant'
+    },
+    {
+      title: 'Espacios para eventos',
+      url: '/eventos',
+      icon: 'calendar'
     }
   ];
 

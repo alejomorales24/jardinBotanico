@@ -3,7 +3,7 @@
     <ion-buttons slot="start">
       <ion-back-button defaultHref="/"></ion-back-button>
     </ion-buttons>
-    <ion-title>Institucional</ion-title>
+    <ion-title>¿Que hacer en el Jardín?</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -21,246 +21,102 @@
       <!-- </ion-card> -->
       
 
-      <ion-card>
+      <ion-card *ngFor="let institucional of itemsInstitucional" class="info">
+        <ion-card-header>
+    
+        </ion-card-header>
+        <ion-card-content>
+          <ion-card-title>
+            <h1>¿Qué se puede hacer en el jardín?</h1>
+          </ion-card-title>
+          <p>Estos son algunos de los recorridos que te recomendamos, puedes disfrutar de nuestras colecciones vivas,
+            nuestras aulas de aprendizaje, conocer nuestros espacios arquitectónicos y finalizar con una deliciosa comida.
+          </p>>
+          <br>
+    
+          <ion-card-title>
+            <h1>Colecciones Vivas</h1>
+          </ion-card-title>
+          
+          <p>Es nuestra razón de ser como jardín botánico, en tu recorrido podrás encontrar un palmétum, nuestro sendero a
+            través de un bosque tropical, podrás disfrutar de una colección prehistórica con las zamias, especies que datan
+            de la era de los dinosaurios, el jardín del desierto y la laguna Francisco José de Caldas, donde podrás ver
+            diferente fauna y flora, asociada a este ecosistema natural, llamado humedal.</p>>
+          <br>
+    
+          <ion-card-title>
+            <h1>Aulas de aprendizaje</h1>
+          </ion-card-title>
+          <p>Un lugar para apreciar las mariposas en un hábitat natural en la Casa de las Mariposas Forjas Bolívar, un
+            espacio abierto para aprender a cultivar nuestros propios alimentos en el Laboratorio de Agricultura Urbana,
+            nuestra Sala de Lectura y Cultura para sumergirse en los textos y disfrutar un rato de lectura en silencio y
+            finalmente, un salón con documentos patrimoniales que cuentan la historia de nuestro Jardín y de toda la ciudad
+            de Medellín en el Centro de Documentación Patrimonial.
+            Estos lugares reúnen el conocimiento de nuestros expertos y son el epicentro para contarles a nuestros
+            visitantes cómo hacemos ciencia en un espacio lleno de naturaleza.
+          </p>>
+          <br>
+    
+          <ion-card-title>
+            <h1>Espacios arquitectónicos</h1>
+          </ion-card-title>
+          <p>Símbolos de la arquitectura y referentes de nuestra ciudad, Medellín. Contamos con diferentes espacios que son
+            reconocidos a nivel nacional y mundial por su diseño y cómo combinan con su entorno para recibir a clientes y
+            visitantes en diferentes espacios como eventos sociales, académicos y culturales.</p>>
+          <br>
+    <h2>Definición de los lugares:</h2>
+    
+          <ion-slides>
+            <ion-slide>
+              
+          
+             <ion-card-content> <p> • Orquideorama José Jerónimo Triana: su forma y estructura permite múltiples posibilidades de
+                distribución, tanto para eventos masivos, como para actos sencillos y reservados.
+              </p></ion-card-content>
+              
+            </ion-slide>
+            <ion-slide>
+              
+          
+          <ion-card-content>
+              <p>• Patio de las Azaleas: es un espacio abierto con amplios jardines, fuentes y corredores cubiertos que
+                evocan tranquilidad.</p>
+              </ion-card-content>
+              
+            </ion-slide>
+            <ion-slide>
+              
+          
+              <p>• Escultura de la Madremonte: monumento creado por José Horacio Betancur, el cual puedes conocer cerca a la
+                Laguna Francisco José de Caldas y el Jardín de piedras. Esta obra de arte protege a toda la naturaleza del
+                Jardín Botánico y nos invita a cuidar los seres vivos en todos los ecosistemas.</p>
+              
+            </ion-slide>
+            <ion-slide>
+              
+          
+              <p>• Herbario: ubicado en el Edificio Científico, es el lugar donde todos los días nuestros expertos
+                investigan y catalogan especies que son incluidas en los registros del Herbario Joaquín Antonio Uribe de
+                Medellín. Si quieres hacer un recorrido por este espacio, debes solicitar un permiso de visita grupal a
+                través de nuestro sitio web, sección Planea tu visita, con 5 días hábiles de anterioridad.</p>
+              
+            </ion-slide>
 
-          <ion-card-header class="titulos">
-            <ion-card-title>
-              <h1><b>DIRECCIONAMIENTO</b></h1>
-            </ion-card-title>
-            <br>
-            <ion-card-subtitle class="text">
-              <b> Naturaleza jurídica</b>
-              Fundación sin ánimo de lucro regida por el derecho privado.
-              <br>
-              <br>
-              <b> Miembros fundadores</b>
-              Alcaldía de Medellín
-              Sociedad de Mejoras Públicas de Medellín
-              Sociedad Colombiana de Orquideología
-              Corporación Club de Jardinería de Medellín
-              <br>
-      
-              <h3><b>Junta directiva</b></h3>
-              <br>
-      
-              <b> Presidenta </b>
-              Francoise Coupé
-              <br>
-      
-              <b> Vicepresidente</b>
-              Fernando Ojalvo Prieto
-              <br>
-              <br>
-      
-              <b> Integrantes Junta Directiva </b>
-              Francoise Coupé - Presidenta Sociedad de Mejoras Públicas
-              Juan Carlos Sanín Arango - Presidente Sociedad Colombiana de Orquideología
-              Ana Mercedes Ruíz Guarín - Presidenta Corporación Club de Jardinería de Medellín
-              Juan Manuel Velásquez Correa - Delegado Alcaldía de Medellín
-              Sergio Andrés Orozco Escobar - Secretario de Medio Ambiente de Medellín
-              Fernando Ojalvo Prieto - Miembro Independiente Experto
-              Juan Diego Granados Sánchez - Miembro Independiente Experto
-              María Isabel Echeverri Carvajal - Miembro Independiente Experto
-              Andrés Ochoa Jaramillo - Miembro Independiente Experto
-              <br>
-              <br>
-      
-      
-              <b> Revisoría Fiscal </b>
-              Auren Consultores Medellín S.A.S.</ion-card-subtitle>
-      
-          </ion-card-header>
-      
-        </ion-card>
-      
-        <ion-card>
-      
-          <ion-card-header>
-            <ion-card-title>
-              <h1 text-center><b>Manual De Ética y Conducta</b></h1>
-            </ion-card-title>
-            <br>
-      
-            <ion-slides pager="true">
-              <ion-slide>
-                <img src="/assets/img/pag1.jpg">
-              </ion-slide>
-              <ion-slide>
-                <img src="/assets/img/pag2.jpg">
-              </ion-slide>
-              <ion-slide>
-                <img src="/assets/img/pag3.jpg">
-              </ion-slide>
-              <ion-slide>
-                <img src="/assets/img/pag4.jpg">
-              </ion-slide>
-              <ion-slide>
-                <img src="/assets/img/pag5.jpg">
-              </ion-slide>
-              <ion-slide>
-                <img src="/assets/img/pag6.jpg">
-              </ion-slide>
-              <ion-slide>
-                <img src="/assets/img/pag7.jpg">
-              </ion-slide>
-              <ion-slide>
-                <img src="/assets/img/pag8.jpg">
-              </ion-slide>
-              <ion-slide>
-                <img src="/assets/img/pag9.jpg">
-              </ion-slide>
-              <ion-slide>
-                <img src="/assets/img/pag10.jpg">
-              </ion-slide>
-              <ion-slide>
-                <img src="/assets/img/pag11.jpg">
-              </ion-slide>
-              <ion-slide>
-                <img src="/assets/img/pag12.jpg">
-              </ion-slide>
-              <ion-slide>
-                <img src="/assets/img/pag13.jpg">
-              </ion-slide>
-            </ion-slides>
-      
-      
-          </ion-card-header>
-      
-        </ion-card>
-      
-        <ion-card>
-      
-          <ion-card-header>
-            <ion-card-title>
-              <h1 text-center><b>Protección De Datos</b></h1>
-            </ion-card-title>
-            <br>
-            <p>
-              <b> LA FUNDACIÓN JARDÍN BOTÁNICO “JOAQUÍN ANTONIO URIBE”</b> usa responsablemente sus datos personales e informa
-              que:
-              <br>
-              <br>
-              En nuestras bases de datos contamos con información relacionada con datos personales de nuestros usuarios, y
-              para cumplir con lo estipulado en la Ley 1581 de 2012 y en el Decreto 1377 de 2013 le queremos contar los fines
-              para los cuales los tendremos en cuenta.
-              <br>
-              <br>
-              Informarle acerca de los eventos que promocionamos, promovemos, ejecutamos y darle a conocer nuestros servicios,
-              contenidos, productos, alianzas, invitaciones a eventos y demás actividades que se implementan y/o realizan en
-              desarrollo del objeto social de la Fundación.
-              <br>
-              <br>
-              <b> Nos hemos comprometido con usted ya que queremos garantizar su consentimiento y seguir comunicándonos
-                efectivamente.</b>
-              <br>
-              <br>
-              <b> LA FUNDACIÓN JARDÍN BOTÁNICO “JOAQUÍN ANTONIO URIBE”</b>, mantendrá contacto con cada suscriptor para
-              informarle acerca de eventos, servicios, promociones, programas, concursos, campañas, programas de fidelización,
-              logística de envíos de premios, contenidos relacionados con las actividades que desarrolla para dar cumplimiento
-              al objeto social de la Fundación , con el fin de mantener un vínculo cercano y confiable con cada uno.
-              <br>
-              <br>
-              Nos comprometemos también a hacer uso de los datos basándonos en una política de privacidad y tratamiento de
-              información personal, en la cual expresamos nuestra responsabilidad para recolectar, almacenar y desarrollar
-              cualquier actividad en la que incluyamos los datos personales. En esta política también expresamos los derechos
-              que cada usuario tiene de conocer, actualizar, rectificar y revocar de las bases de datos de JARDÍN BOTÁNICO sus
-              datos personales. De esta manera, damos cumplimiento a la Ley 1581 de 2012.
-              <br>
-              <br>
-              Si desea que <b>LA FUNDACIÓN JARDÍN BOTÁNICO “JOAQUÍN ANTONIO URIBE”</b>, le retire de sus bases de datos,<b> lo
-                debe manifestar de manera directa</b>, expresa, inequívoca y por escrito, al correo electrónico
-              comunicaciones@jbotanico.org o puede solicitar una comunicación telefónica, enviando su número de contacto a ese
-              mismo correo. De no manifestar su interés de retirarse de las bases de datos, se habilitará a la Fundación a
-              continuar el tratamiento de los mismos, acorde con lo establecido en el artículo 10 del Decreto 1377 de 2013. En
-              cualquier momento se puede consultar la Política de Tratamiento de Datos Personales que está publicada en este
-              portal web.
-              </p>
-      
-          </ion-card-header>
-      
-        </ion-card>
-      
-        <ion-card >
-      
-          <ion-card-header>
-            <!-- <marquee behavior="" direction=""> -->
-              <iframe width="340" height="250" src="https://yofasele.sirv.com/Images/jardinbotanico/desde%20el%20aire.mp4" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      
-            <!-- </marquee> -->
-            <ion-card-title>
-              <h1><b>¡Somos amigos, somos compañeros, somos un equipo!</b></h1>
-            </ion-card-title>
-            <br>
-            <ion-card-subtitle class="text">En este caso no hablaremos de servicios y productos, hablaremos de perfiles, de actividades, de
-              personas. Los invitamos a conocernos, esta es la familia Jardín Botánico de Medellín. ¡Así somos!
-            </ion-card-subtitle>
-          </ion-card-header>
-      
-        </ion-card>
-      
-        <ion-card>
-      
-      
-          <ion-card-header>
-            <ion-card-title>
-              <h1><b> Misión y Visión</b></h1>
-            </ion-card-title>
-            <ion-slides pager="true">
-              <ion-slide>
-      
-      
-                <ion-card-subtitle class="text">
-                  <h2><b> Plan Estratégico de Desarrollo 2017 - 2020</b></h2>
-      
-                  <b> Misión </b>
-                  Creamos experiencias de encuentro y convivencia para la ciudad, integradas a estrategias de investigación,
-                  conservación, educación y cultura asociadas a la biodiversidad y a la relación del ser humano con el entorno
-                  natural.
-                  <br>
-                  <b> Visión </b>
-                  En el 2020 el Jardín Botánico Joaquín Antonio Uribe de Medellín, será reconocido como institución líder en
-                  la transformación de Ciudad, promoviendo experiencias y escenarios vivos de educación, que propicien cambios
-                  positivos frente a la relación de las personas con el entorno en el marco de un desarrollo sostenible.
-                </ion-card-subtitle>
-      
-      
-              </ion-slide>
-      
-      
-      
-      
-              <ion-slide>
-      
-                <ion-card-subtitle>
-      
-                  <h3> Ejes estratégicos </h3>
-                  <b>. Un Jardín que investiga y conserva:</b> promover acciones de conservación in situ y ex situ de la flora
-                  nativa de Colombia, fundamentados en la investigación y la conservación de la biodiversidad.
-                  <br>
-                  <b>. Un Jardín que transforma:</b> acercar la ciencia al ciudadano transformando actitudes frente a la
-                  importancia de la biodiversidad y la movilización ciudadana alrededor del cuidado del entorno.
-                  <br>
-                  <b>. Un Jardín para el encuentro de Ciudad:</b> somos un espacio para vivir la Ciudad, disfrutar y
-                  encontrarnos con otros. El lugar donde ocurre la celebración, la cultura, el aprendizaje, el descanso. Un
-                  espacio propio para locales y visitantes.
-                  <br>
-                  <b>. Un Jardín con solidez institucional:</b> seremos un gran lugar para trabajar, permitiendo el desarrollo
-                  integral de nuestros colaboradores a partir de la diversidad y la inclusión. Generamos bienestar en todas
-                  las dimensiones.
-      
-                </ion-card-subtitle>
-      
-      
-      
-              </ion-slide>
-      
-      
-            </ion-slides>
-      
-          </ion-card-header>
-      
-        </ion-card>
+            <ion-slide>
+              
+          
+              <p>• Salón de los Magnolios y Villa de los Jardineros: este espacio, aunque es poco conocido es muy
+                emblemático para nosotros. Allí todos los días, cientos de jardineros se preparan para salir a las calles
+                para cumplir una misión clara: embellecer la ciudad con la construcción y adecuación de diferentes jardines,
+                que hacen de Medellín, una ciudad llena de vida.</p>
+              
+            </ion-slide>
+    
+    
+          </ion-slides>
+    
+      </ion-card-content>
+      </ion-card>    
 
      
      
